@@ -1,0 +1,111 @@
+body{
+      background-color: white;
+}
+h1{
+      color: black;
+      text-align: center;
+      text-transform:uppercase;
+      padding-top: 0.5em;
+      font-size: 2.5em;
+      font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+      color: black;
+      text-decoration: black;
+      background-color:#937E66;
+      padding: 0.4em;
+      margin: 0.2em;
+      font-size: 1.1em;
+}
+nav{
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 15px;
+}
+a:hover{
+      color: gray;
+      background-color: #FFE8DE;
+}
+.tabs{
+      text-align: center;
+      border-color: white;
+      color:black;
+      text-transform: uppercase;
+      text-decoration: black;
+
+}
+.welcome{
+      font-size: 1em;
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 2em;
+}
+.shopping{
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 3em;
+}
+.agent{
+      color: black;
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 2em;
+}
+button{
+      padding: 1em;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      color: #FFE8DE;
+      border-radius: 0em;
+      border-style: hidden;
+      margin: 0.4em;
+      background-color: #937E66;
+      
+}
+div{
+      border-style:solid;
+      border-color: gray;
+      margin: 3em;
+}
+button:hover{
+      color:gray;
+      background-color: #FFE8DE;
+}
+.male-fragrances{
+      text-align: center;
+      list-style-type: none;
+      text-transform: uppercase;
+}
+.female-fragrances{
+      text-align: center;
+      list-style-type: none;
+      text-transform: uppercase;
+}
+.oud{
+      text-align: center;
+      list-style-type: none;
+      text-transform: uppercase;
+}
+ul{
+      text-align: left;
+      list-style-type:circle;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.order-now{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 745px) {
+      nav{
+            flex-direction: column;
+            text-align: center;
+            padding: 1em;
+      }
+}
